@@ -1,0 +1,42 @@
+package com.yourcompany;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Initialize database
+        DatabaseInitializer.initializeDatabase();
+
+        // Main menu
+        while (true) {
+            System.out.println("1. Client Management");
+            System.out.println("2. Service Management");
+            System.out.println("3. Invoice Management");
+            System.out.println("4. Analytics");
+            System.out.println("5. Exit");
+            System.out.print("Choose an option: ");
+            int option = scanner.nextInt();
+
+            switch (option) {
+                case 1:
+                    // Client management operations
+                    break;
+                case 2:
+                    // Service management operations
+                    break;
+                case 3:
+                    // Invoice management operations
+                    break;
+                case 4:
+                    // Analytics operations
+                    break;
+                case 5:
+                    System.out.println("Exiting...");
+                    return;
+                default:
+                    System.out.println("Invalid option");
+            }
+        }
+    }
+}
