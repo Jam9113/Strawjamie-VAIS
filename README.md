@@ -3,3 +3,4 @@ To use the application, the first the you need to do is to select a command from
 After you select a command or a functionality, follow the instructions that was provided by the system on what to do with the command
 The application will then display the information such as list of clients, invoices or messages depending on the functionality that you select.
 Read the output to better understand your chosen functionality.
+(Note: I might add some more files later po.Thanks
